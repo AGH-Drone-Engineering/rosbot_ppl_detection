@@ -1,0 +1,13 @@
+train: ../splitted/train/images
+val: ../splitted/val/images
+test: ../splitted/test/images
+
+nc: 13
+names: ['bag', 'belt', 'boots', 'dress', 'footwear', 'headwear', 'outer', 'pants', 'scarf-tie', 'shorts', 'skirt', 'sunglasses', 'top']
+
+roboflow:
+  workspace: new-workspace-5nurl
+  project: modanet-osd3s
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/new-workspace-5nurl/modanet-osd3s/dataset/1
